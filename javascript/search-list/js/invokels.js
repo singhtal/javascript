@@ -1,12 +1,11 @@
 window.onload = function () {
     data = {
-        insertIdHere: 'searchcountryhere',
-        id: 'searchcountry',
-        placeholder: 'Search Country',
-        name: 'SearchCountry',
-        initvalue: 'India',
-        classList: 'myclass input-lg',
-        listdata: [{
+        insertIdHere: 'searchcountryhere', // id of the element where searchlist needs to be inserted
+        id: 'searchcountry', // fresh id of the new input searchlist
+        placeholder: 'Search Country', // placeholder of new input searchlist
+        name: 'SearchCountry', // name of new input searchlist
+        initvalue: 'India', // default value of new input searchlist
+        listdata: [{    // pass json data to be shown in searchlist, change key.name in searchlist.js line 12 as per your json file
                 "name": "Albania",
                 "code": "AL"
             },

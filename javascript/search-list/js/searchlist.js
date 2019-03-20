@@ -7,6 +7,7 @@ var searchlist = (function () {
             if (elem) {
                 elem.innerHTML = `<div class="listparent"><input type="text" id="${data.id}" name="${data.name}" placeholder="${data.placeholder}" class="searchList"></div>`;
                 elem.insertAdjacentHTML('beforeend', '<div class="listcontainer noshow"></div>');
+
                 var listcontainer = document.getElementsByClassName('listcontainer')[0];
                 listdata.forEach(function (key) {
                     listcontainer.insertAdjacentHTML('beforeend', `<div class="listeach">${key.name}</div>`);
@@ -27,7 +28,6 @@ var searchlist = (function () {
                         }
                         return false;
                     }
-
                     listEachFilter.forEach(function (key) {
                         key.classList.remove('nomatch');
                         if (!(key.innerText).toLowerCase().startsWith(inputVal)) {
@@ -39,9 +39,8 @@ var searchlist = (function () {
                             listcontainer.classList.add('noshow');
                         })
                     });
-
-
                 });
+                
             }
         }
     }
