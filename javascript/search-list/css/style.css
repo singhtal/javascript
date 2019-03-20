@@ -1,14 +1,16 @@
-.searchList{
+.searchList {
     width: 100%;
     height: 50px;
     margin: 10px 0 0 0;
     padding: 5px 15px;
     color: #495057;
 }
-.listparent{
+
+.listparent {
     position: relative;
 }
-.listcontainer{
+
+.listcontainer {
     padding: 5px 0 0;
     border: 1px solid #ccc;
     border-top: 0;
@@ -16,15 +18,18 @@
     overflow-y: scroll;
     border-radius: 0 0 5px 5px;
 }
-.listcontainer.noshow{
+
+.listcontainer.noshow {
     display: none;
 }
-.listeach{
+
+.listeach {
     color: #6c757d;
     padding: 5px 15px;
     border-bottom: 1px solid #eee;
     cursor: pointer;
 }
-.nomatch{
+
+.nomatch {
     display: none;
 }
