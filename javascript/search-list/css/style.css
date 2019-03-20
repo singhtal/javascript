@@ -1,0 +1,29 @@
+.searchList{
+    width: 100%;
+    height: 50px;
+    margin: 10px 0 0 0;
+    padding: 5px 15px;
+}
+.listparent{
+    position: relative;
+}
+.listcontainer{
+    padding: 5px 0 0;
+    border: 1px solid #ccc;
+    border-top: 0;
+    max-height: 180px;
+    overflow-y: scroll;
+    border-radius: 0 0 5px 5px;
+}
+.listcontainer.noshow{
+    display: none;
+}
+.listeach{
+    color: #6c757d;
+    padding: 5px 15px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+}
+.nomatch{
+    display: none;
+}
