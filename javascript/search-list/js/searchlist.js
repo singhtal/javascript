@@ -40,7 +40,6 @@ var searchlist = (function () {
                         })
                     });
                 });
-                
             }
         }
     }
