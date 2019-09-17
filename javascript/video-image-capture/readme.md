@@ -8,7 +8,7 @@ Simple include the library in your project
 
 ## Usage
 
-```python
+```javascript
 Initializing the plugin -
 
    videoImageCapture($('#idOfCanvasElement'), 'option');
